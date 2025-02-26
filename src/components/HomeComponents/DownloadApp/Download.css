@@ -1,0 +1,92 @@
+
+.downloadAppSection{
+    padding-top: 22vw;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+  .background-shape {
+    position: relative;
+    width: 85%;
+    height: 24vh; 
+    background-color: #000c3a; 
+    border-radius: 50px;
+  }
+  .mobilemockupimage{
+    position: relative;
+    width: 30%;
+    height: 100%;
+  }
+  .mobilemockupimage img {
+    width: 13vw;
+    position: absolute;
+    z-index: 12;
+    right: 0%;
+    top: -70%;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.mobilemockupimage img:hover {
+    transform: rotate(12deg); 
+    animation: updown 2s ease-in-out infinite 0.5s;
+}
+
+@keyframes updown {
+    0% {
+        transform: rotate(12deg) translateY(-5px);
+    }
+    50% {
+        transform: rotate(12deg) translateY(5px); 
+    }
+    100% {
+        transform: rotate(12deg) translateY(-5px);
+    }
+}
+
+.mobilemockupimage img:not(:hover) {
+    animation: none; 
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out; 
+}
+.download-content{
+    position: absolute;
+    top: -18%;
+    right: 0;
+    padding-right: 7vw;
+}
+.download-content h2{
+    color: white ;
+}
+.download-content span{
+    color: #f2cf1f ;
+}
+.download-content  p{
+    color: grey;
+}
+.download-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.download-buttons img{
+    width: 8vw;
+}
+.download-buttons :nth-child(2){
+    width: 9vw;
+}
+  .background-shape::before {
+    content: "";
+    position: absolute;
+    right: .5%;
+    top: -60px; 
+    width: 100%;
+    transform: rotate(-5deg);
+    height: 25vh; 
+    background-color: #000c3a;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .delicousFoodsection{
+    
+  }

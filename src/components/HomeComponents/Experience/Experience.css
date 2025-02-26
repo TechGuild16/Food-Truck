@@ -1,0 +1,88 @@
+.experience{
+    width: 100vw;
+    background-color: #000c3b;
+    height: 80vh;
+    position: relative;
+
+}
+.experienceUpsideTriange{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5vh;
+    height: 5vh;
+    top: -4%;
+    transform: rotate(45deg);
+    background-color: #00166e;
+}
+.experience-main-div{
+    height: 100%;
+    padding-left: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-photo-frame {
+    width: 35vw;
+    height: 50vh;
+    
+    border-radius: 12px;
+    background-color: #00166e;
+    transform: perspective(800px) rotateY(15deg);
+    transform-origin: left center; 
+    transition: transform 0.5s ease-in-out; 
+    padding: 2vw;
+    box-shadow: 0px 0px 20px 5px #000c3a;
+    
+    transition: margin-bottom .4s ease-in-out;
+}
+.experience-photo-frame:hover{
+    margin-bottom: 2vw;
+    transition: margin-bottom .4s ease-in-out;
+}
+.inner-photo-frame{
+    position: relative;
+}
+.inner-photo-frame img{
+    
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.experiencediv{
+    position: absolute;
+    top:-20%;
+    right: -20%;
+    width: 17vw;
+    height: 20vh;
+    border-radius: 23px;
+    box-shadow: 0px 0px 20px 5px #000c3a;
+    background-color: #00166e;
+    padding-top: 1vw;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+.experiencediv:hover{
+    transform: rotate(-12deg);
+    transition: transform .3s ease-in-out;
+}
+.experiencediv h1{
+    color: white;
+}
+.experiencediv p{
+    color: rgb(162, 162, 162);
+    font-size: 1.5vw;
+}
+.experience-right-section p:first-child{
+    color: #f2cf1f !important;
+    font-weight: bold !important;
+
+}
+.experience-right-section h1{
+    color: white;
+}
+.experience-right-section p{
+    color: rgb(139, 139, 139);
+    font-size: 1.1vw;
+}

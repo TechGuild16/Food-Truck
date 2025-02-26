@@ -1,0 +1,48 @@
+.decliciousfood-content h1{
+    color: white;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.decliciousfood-content span{
+    color: #f2cf1f;
+}
+.decliciousfood-content-p{
+    font-size: 1vw;
+    color: grey;
+}
+.delicous-food-section{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 7vw;
+}
+.delicious-food-boxes{
+    margin-top:4vw;
+}
+.fooodbox{
+    width: 25vw;
+    background-color: #000c3b;
+    height: 20vh;
+    border-radius: 16px;
+    position: relative;
+    
+}
+.fooodbox img{
+    width: 9vw;
+    position: absolute;
+    top: -20%;
+   left : 8%
+}
+.food-content{
+    position: absolute;
+    right: 3%;
+    
+    padding-right: 3vw;
+}
+.food-content :nth-child(1){
+    color: white;
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+.food-content :nth-child(2){
+    color: #f2cf1f;
+}
