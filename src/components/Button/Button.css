@@ -16,3 +16,16 @@
     box-shadow: -10px 10px 0 rgb(0, 12, 88); 
 }
 /***************homeboutton***************/
+.footerbutton{
+    background-color: #f2cf1f;
+    border: none;
+    padding: 1.3vw 2vw 1.3vw 2vw;
+    border-radius: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

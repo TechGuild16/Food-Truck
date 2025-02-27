@@ -1,0 +1,94 @@
+.menu-container {
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFC107;
+  }
+  
+  .menu-subtitle {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #FFD700;
+  }
+  
+  .menu-description {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  
+  .menu-categories {
+    margin-bottom: 40px;
+  }
+  
+  .category-button {
+    margin: 0 10px;
+    background-color: #000c3a;
+    border: none;
+    padding: 1.2vw;
+    color: white;
+    font-weight: bold;
+    width: 30vw;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .category-button.active {
+    background-color: #FFC107;
+    color: #000c3a;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .menu-card {
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  .menu-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 32px;
+  }
+  
+  .menu-card .menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .card-text-home{
+    font-size: 1.1vw;
+    color: rgb(160, 160, 160);
+  }
+  .menu-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000c3a;
+    padding: .5vw 1.5vw;
+    border-radius: 12px;
+  }
+  
+  .menu-card button {
+    color: #FFC107;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  

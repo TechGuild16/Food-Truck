@@ -4,16 +4,17 @@ import About from "./pages/About/About";
 import Menu from "./pages/Menu/Menu";
 import Schedule from "./pages/Schedule/Schedule";
 import Team from "./pages/Team/Team";
-import Page from "./pages/page/page";
+
 import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contactg/Contact";
 import { Navbar } from "react-bootstrap";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/Navbar/NavigationBar";
+import Page from "./pages/page/Page";
 function App() {
   return (
     <Router>
-       <NavigationBar />
+       {/* <NavigationBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

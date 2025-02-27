@@ -1,0 +1,54 @@
+.ourScheduleSection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 0;
+  }
+  
+  .ourschedule h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .ourschedule p {
+    text-align: center;
+    color: rgb(182, 182, 182);
+  }
+  
+  .ourschedule span {
+    color: #ffc108;
+  }
+  .carderfoodoursched{
+    height: 50vh;
+    width: 25vw;
+  }
+  .myulist{
+    font-size: 1vw;
+  }
+  .bg-dark {
+    background-color: #0b0e36 !important;
+    height: 35vh;
+    position: relative;
+    left: -4%;
+    border-radius: 22px !important;
+    top: 3vw;
+  }
+  .absolutepostioin{
+    position: relative;
+  }
+  
+  .carderfoodoursched h2{
+    font-size: 1.5vw;
+  }
+  ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  .imageSec{
+    height: 50vh;
+    width: 45vw;
+    object-fit: cover;
+  }

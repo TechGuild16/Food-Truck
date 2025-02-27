@@ -1,0 +1,36 @@
+.pageHeader-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:70vh;
+   
+}
+.page-Text{
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+}
+.pageText h1{
+  color:var(--text-color);
+  font-size:3rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.page-Text p{
+    color: var(--color);
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page-icon{
+    color:var(--text-color);
+}
+hr {
+    width: 100%; 
+    margin: 0px auto; 
+    border: 2px solid #913131 !important; 
+  }
+

@@ -9,6 +9,10 @@ import DownloadApp from "../../components/HomeComponents/DownloadApp/DownloadApp
 import DeliciousFood from "../../components/HomeComponents/DeliciourFood/DeliciousFood";
 import Experience from "../../components/HomeComponents/Experience/Experience";
 import FoodMenu from "../../components/HomeComponents/Menu/FoodMenu";
+import VideoSection from "../../components/HomeComponents/VideoSection/VideoSection";
+import OurSchedule from "../../components/HomeComponents/OurSchedule/OurSchedule";
+import CustomerReview from "../../components/HomeComponents/customerReview/CustomerReview";
+import Offer from "../../components/HomeComponents/SpecialOffer/Offer";
 
 const Home = () => {
   return (
@@ -49,6 +53,10 @@ const Home = () => {
     </div>
       <Experience />
       <FoodMenu />
+      <VideoSection />
+      <OurSchedule />
+      <CustomerReview />
+      <Offer />
           </>
   );
 };

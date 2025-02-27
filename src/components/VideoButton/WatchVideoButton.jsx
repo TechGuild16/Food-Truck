@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./WatchVideoButton.css";
 
-const WatchVideoButton = () => {
+const WatchVideoButton = ({includeText}) => {
   return (
     <div className="watch-video-container">
       {/* Play Button with Pulse Effect */}
@@ -19,7 +19,8 @@ const WatchVideoButton = () => {
       </div>
 
       {/* Watch Video Text */}
-      <span className="watch-video-text">WATCH VIDEO</span>
+      {includeText ? <span className="watch-video-text">WATCH VIDEO</span> : "" }
+     
     </div>
   );
 };
