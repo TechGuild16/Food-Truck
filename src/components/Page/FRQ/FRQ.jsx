@@ -30,7 +30,7 @@ const FRQ = () => {
     ]
 
     const [openIndex, setOpenIndex] = useState(null);
-    
+
     const toggleDescription = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     }
@@ -38,7 +38,7 @@ const FRQ = () => {
         <>
             <div className="container FAQPage">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-12 col-md-6">
                         <div className="page">
                             <h3>FAQ's</h3>
                             <h2>GENERAL <span>QUESTION</span></h2>
@@ -50,8 +50,15 @@ const FRQ = () => {
                             {Question.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-header">
-                                        <h3>{item.about}</h3>
-                                        <p className="faq-arrow" onClick={() => toggleDescription(index)}>
+                                        <h3 style={{ color: openIndex === index ? "yellow" : "white" }}>
+                                            {item.about}
+                                        </h3>
+                                        
+                                        <p 
+                                            className="faq-arrow"
+                                            style={{ color: openIndex === index ? "yellow" : "white" }}
+                                            onClick={() => toggleDescription(index)}
+                                        >
                                             {openIndex === index ? <FaAngleUp /> : <FaAngleDown />}
                                         </p>
                                     </div>

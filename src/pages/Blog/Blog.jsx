@@ -1,11 +1,16 @@
-import React from 'react'
-import './Blog.css'
+import React from "react";
+import Banner from "../../components/Blog/Banner/banner";
+import BlogContainer from "../../components/Blog/BlogContent/blogcontent";
+import "./Blog.css";
 const Blog = () => {
   return (
-    <div>
-      Blog
-    </div>
-  )
-}
+    <>
+      <div>
+        <Banner title="Our Blogs" pagetitle="Our Blog" />
+        <BlogContainer />
+      </div>
+    </>
+  );
+};
 
-export default Blog
+export default Blog;

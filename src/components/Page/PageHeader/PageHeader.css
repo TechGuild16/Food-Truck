@@ -2,7 +2,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:70vh;
+    height:55vh;
    
 }
 .page-Text{
@@ -33,4 +33,14 @@ hr {
     margin: 0px auto; 
     border: 2px solid #913131 !important; 
   }
+
+  @media (max-width: 576px) {
+    .pageHeader-page{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:40vh;
+       
+    }
+}
 
