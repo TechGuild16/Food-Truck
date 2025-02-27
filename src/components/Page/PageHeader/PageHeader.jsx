@@ -18,4 +18,4 @@ const PageHeader = ({ title, breadcrumb }) => {
   )
 }
 
-export default PageHeader
+export default PageHeader;
