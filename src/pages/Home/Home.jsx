@@ -13,6 +13,7 @@ import VideoSection from "../../components/HomeComponents/VideoSection/VideoSect
 import OurSchedule from "../../components/HomeComponents/OurSchedule/OurSchedule";
 import CustomerReview from "../../components/HomeComponents/customerReview/CustomerReview";
 import Offer from "../../components/HomeComponents/SpecialOffer/Offer";
+import Blog from "../../components/Blogs/Blog";
 
 const Home = () => {
   return (
@@ -57,6 +58,7 @@ const Home = () => {
       <OurSchedule />
       <CustomerReview />
       <Offer />
+      <Blog />
           </>
   );
 };
