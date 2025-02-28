@@ -1,0 +1,64 @@
+.project-page {
+  background-image: url("../../../assets/banner-bg.png");
+  background-color: maroon;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  position: relative;
+  border-bottom: 3px solid rgb(61, 3, 3);
+}
+
+.project-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 14, 14, 0.5);
+  z-index: 1;
+}
+
+.projectText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  z-index: 2;
+}
+.projectText h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 10px;
+}
+.projectText p {
+  font-weight: 600;
+}
+.projectText p {
+  color: white;
+}
+.project-icon p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 576px) {
+  .project-page {
+    height: 50vh;
+  }
+  .projectText {
+    height: 45vh;
+    text-align: center;
+  }
+  .projectText h1 {
+    font-size: 2rem;
+  }
+  .projectText p {
+    font-size: 14px;
+  }
+}
