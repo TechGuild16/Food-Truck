@@ -177,14 +177,21 @@ const postContent = () => {
       </div>
 
       {/* Right Content Section */}
-      <div className="content-container">
-        <div className="first">
+      <div className="content-container d-flex flex-column align-items-center">
+        {/* Recent Posts Section */}
+        <div
+          className="first p-4 text-white"
+          style={{
+            maxWidth: "400px",
+            borderRadius: "10px",
+          }}
+        >
           <h4 className="text-warning fw-bold mt-3">RECENT POST</h4>
           <div className="post">
             <h6 className="text-light">
               HOW TECHNOLOGY IS CHANGING HOW WE TREAT FOOD TRUCKS
             </h6>
-            <p className="text-secondary">📅 August 3, 2022</p>
+            s<p className="text-secondary">📅 August 3, 2022</p>
           </div>
           <div className="post">
             <h6 className="text-light">
@@ -199,65 +206,59 @@ const postContent = () => {
             <p className="text-secondary">📅 August 1, 2022</p>
           </div>
           <div className="post">
-            <h6 className="text-light ">
+            <h6 className="text-light">
               Seven Important Life Lessons Food Truck Taught Us
             </h6>
             <p className="text-secondary">📅 August 1, 2022</p>
           </div>
         </div>
 
-        <div className="second">
-          <div className="container d-flex justify-content-center my-4">
-            <div
-              className="card text-white p-4"
-              style={{
-                backgroundColor: "#651b1b",
-                maxWidth: "400px",
-                borderRadius: "10px",
-              }}
-            >
-              <h5 className="fw-bold text-warning">HAVE ANY QUESTION?</h5>
-              <p className="mb-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-              </p>
-              <p className="d-flex align-items-center gap-2">
-                <FaPhoneAlt className="text-warning" /> (+62) 81 2345 6789
-              </p>
-              <p className="d-flex align-items-center gap-2">
-                <FaEnvelope className="text-warning" /> delitruck@domain.com
-              </p>
-            </div>
-          </div>
+        {/* Have Any Question Section */}
+        <div
+          className="second mt-4 p-4 text-white"
+          style={{
+            backgroundColor: "#651b1b",
+            maxWidth: "400px",
+            borderRadius: "10px",
+          }}
+        >
+          <h5 className="fw-bold text-warning">HAVE ANY QUESTION?</h5>
+          <p className="mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <p className="d-flex align-items-center gap-2">
+            <FaPhoneAlt className="text-warning" /> (+62) 81 2345 6789
+          </p>
+          <p className="d-flex align-items-center gap-2">
+            <FaEnvelope className="text-warning" /> delitruck@domain.com
+          </p>
         </div>
 
-        <div className="third">
-          <div className="container d-flex justify-content-center mt-4">
-            <div
-              className="card text-white p-4"
-              style={{
-                backgroundColor: "#651b1b",
-                maxWidth: "400px",
-                borderRadius: "10px",
-              }}
-            >
-              <h5 className="fw-bold text-warning">CATEGORIES</h5>
-              <ul className="list-unstyled mt-2">
-                <li className="d-flex align-items-center text-light">
-                  <FaChevronRight className="text-warning me-2" /> Trends
-                </li>
-                <li className="d-flex align-items-center text-light mt-2">
-                  <FaChevronRight className="text-warning me-2" /> Tips & Trick
-                </li>
-                <li className="d-flex align-items-center text-light mt-2">
-                  <FaChevronRight className="text-warning me-2" /> News
-                </li>
-                <li className="d-flex align-items-center text-light mt-2">
-                  <FaChevronRight className="text-warning me-2" /> Insight
-                </li>
-              </ul>
-            </div>
-          </div>
+        {/* Categories Section */}
+        <div
+          className="third mt-4 p-4 text-white"
+          style={{
+            backgroundColor: "#651b1b",
+            maxWidth: "400px",
+            borderRadius: "10px",
+          }}
+        >
+          <h5 className="fw-bold text-warning">CATEGORIES</h5>
+          <ul className="list-unstyled mt-2">
+            <li className="d-flex align-items-center text-light">
+              <FaChevronRight className="text-warning me-2" /> Trends
+            </li>
+            <li className="d-flex align-items-center text-light mt-2">
+              <FaChevronRight className="text-warning me-2" /> Tips & Tricks
+            </li>
+            <li className="d-flex align-items-center text-light mt-2">
+              <FaChevronRight className="text-warning me-2" /> News
+            </li>
+            <li className="d-flex align-items-center text-light mt-2">
+              <FaChevronRight className="text-warning me-2" /> Insight
+            </li>
+          </ul>
         </div>
       </div>
     </div>
