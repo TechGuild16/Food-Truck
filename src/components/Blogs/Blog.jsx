@@ -83,7 +83,7 @@ const Blog = () => {
                            {post.category}
                          </span>
                        </div>
-                       <h3 className="fw-bold mb-2 fs-5 text-white">
+                       <h3 className="fw-bold mb-2 fs-5 text-black">
                          {post.title}
                        </h3>
                        <div className="d-flex align-items-center text-secondary mb-3 small">
@@ -102,7 +102,7 @@ const Blog = () => {
                          </svg>
                          {post.date}
                        </div>
-                       <p className="small mb-3" style={{color:"white"}}>
+                       <p className="small mb-3" style={{color:"black"}}>
                          {post.excerpt}
                        </p>
                        <div

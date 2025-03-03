@@ -9,7 +9,8 @@
   .ourschedule h1 {
     text-align: center;
     font-size: 4vw;
-    color: white;
+    color: black;
+    font-weight: 500;
     text-transform: uppercase;
   }
   
@@ -29,7 +30,7 @@
     font-size: 1vw;
   }
   .bg-dark {
-    background-color: #0b0e36 !important;
+    background-color: #000000 !important;
     height: 35vh;
     position: relative;
     left: -4%;
@@ -52,3 +53,34 @@
     width: 45vw;
     object-fit: cover;
   }
+  @media screen and (max-width : 768px) {
+    
+.ourschedule h1 {
+    text-align: center;
+    font-size: 8vw;
+  }
+  
+.ourschedule p {
+    font-size: 3vw;
+}
+.imageSec {
+    height: 27vh;
+    width: 90vw;
+}
+.bg-dark {
+    background-color: #000000 !important;
+    height: 30vh;
+    position: relative;
+    width: 64vw;
+    left: 11%;
+    border-radius: 22px !important;
+    top: -10vw;
+  }
+  
+.carderfoodoursched h2 {
+    font-size: 3.5vw;
+}
+.myulist{
+  font-size: 3vw;
+}
+}

@@ -1,0 +1,34 @@
+.flexcolumner{
+    display: flex;
+    flex-direction: column;
+}
+.h3tagger{
+    color: white;
+}
+.getterexpe{
+    padding-bottom: 4vw;
+}
+.uniquerdiv{
+    position: absolute;
+    top: 95%;
+    
+    transform: perspective(1000px) rotateY(35deg) !important;
+    left: 10%;
+}
+.uniquerdivver{
+    z-index: 100;
+}
+.getterexpe{
+    min-height: 100vh !important;
+    background-color: #000000;
+    padding-top:5vw;
+}
+@media screen and (max-width : 768px) {
+        #onlythis{
+            margin-top: 57vw;
+        }
+        .uniquerdiv {
+            position: absolute;
+            top: 83%;
+        }
+}

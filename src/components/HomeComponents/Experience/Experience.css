@@ -1,7 +1,8 @@
 .experience{
     width: 100vw;
-    background-color: #000c3b;
+    background-color: #000000;
     height: 80vh;
+    margin-top: 3vw;
     position: relative;
 
 }
@@ -13,7 +14,7 @@
     height: 5vh;
     top: -4%;
     transform: rotate(45deg);
-    background-color: #00166e;
+    background-color: #f3f6ff;
 }
 .experience-main-div{
     height: 100%;
@@ -27,12 +28,12 @@
     height: 50vh;
     
     border-radius: 12px;
-    background-color: #00166e;
+    background-color: #ffffff;
     transform: perspective(800px) rotateY(15deg);
     transform-origin: left center; 
     transition: transform 0.5s ease-in-out; 
     padding: 2vw;
-    box-shadow: 0px 0px 20px 5px #000c3a;
+    box-shadow: 0px 0px 20px 5px #828282;
     
     transition: margin-bottom .4s ease-in-out;
 }
@@ -57,8 +58,8 @@
     width: 17vw;
     height: 20vh;
     border-radius: 23px;
-    box-shadow: 0px 0px 20px 5px #000c3a;
-    background-color: #00166e;
+    box-shadow: 0px 0px 20px 5px #828282;
+    background-color: #ffffff;
     padding-top: 1vw;
     transition: transform .3s ease-in-out;
     cursor: pointer;
@@ -68,10 +69,10 @@
     transition: transform .3s ease-in-out;
 }
 .experiencediv h1{
-    color: white;
+    color: black;
 }
 .experiencediv p{
-    color: rgb(162, 162, 162);
+    color: rgb(0, 0, 0);
     font-size: 1.5vw;
 }
 .experience-right-section p:first-child{
@@ -81,8 +82,55 @@
 }
 .experience-right-section h1{
     color: white;
+    font-size: 3.8vw;
 }
 .experience-right-section p{
     color: rgb(139, 139, 139);
     font-size: 1.1vw;
+}
+@media screen and (max-width:768px){
+    .experience-main-div :nth-child(1){
+        flex-direction: column;
+    }
+    .experience-main-div :nth-child(1) {
+        flex-direction: column;
+    }
+
+.experience-photo-frame {
+    width: 87vw;
+    height: 33vh;
+}
+.experiencediv{
+    height: 12vh;
+    width: 51vw;
+}
+.experiencediv h1{
+    font-size:10vw;
+}
+
+.experiencediv p {
+    font-size: 4.5vw;
+    margin-top: -3vw;
+}
+
+.experience-main-div {
+    padding-top: 12vw;
+}
+.experience-right-section {
+    margin-top: -11vw;
+}
+.experience-right-section p:first-child{
+    font-size: 5vw;
+}
+.experience{
+    min-height: 100vh;
+}
+.experience-right-section h1 {
+    color: white;
+    font-size: 9.8vw;
+    margin-top: -3vw;
+}
+.experience-right-section p {
+    font-size: 3vw;
+}
 }

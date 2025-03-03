@@ -6,7 +6,7 @@ import fries from "../../../assets/fries.png";
 import drink from "../../../assets/drink.png";
 
 const floatAnimation = {
-  y: [0, -10, 0], // Move up and down
+  y: [0, -10, 0], 
   transition: {
     duration: 1.5,
     ease: "easeInOut",
@@ -22,13 +22,13 @@ const DeliciousFood = () => {
     <motion.div
       ref={sectionRef}
       className="container-fluid delicous-food-section"
-      initial={{ opacity: 0, y: 50 }} // Start hidden and slightly lower
-      animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}} 
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="row">
         <div className="col-md-12">
-          <div className="d-flex align-items-center gap-2">
+          <div className="d-flex align-items-center flexchanger gap-2">
             <div className="col-md-6 decliciousfood-content">
               <h1>
                 OUR BEST<br /> <span>DELICIOUS FOOD</span>

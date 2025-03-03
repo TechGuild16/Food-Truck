@@ -12,13 +12,13 @@ import FoodMenu from "../../components/HomeComponents/Menu/FoodMenu";
 import VideoSection from "../../components/HomeComponents/VideoSection/VideoSection";
 import OurSchedule from "../../components/HomeComponents/OurSchedule/OurSchedule";
 import CustomerReview from "../../components/HomeComponents/customerReview/CustomerReview";
-import Offer from "../../components/HomeComponents/SpecialOffer/Offer";
 import Blog from "../../components/Blogs/Blog";
+import VideoSection2 from "../../components/HomeComponents/VideoSection/VideoSection2";
 
 const Home = () => {
   return (
     <>
-    <div className="home-container">
+    <div className="home-container container-fluid">
       <div className="home-content d-flex align-items-center">
         <motion.div
           className="text-section"
@@ -27,10 +27,10 @@ const Home = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           >
           <h6 className="text-warning">WELCOME TO DELITRUCK</h6>
-          <h1 className="text-white">
+          <h1 className="text-black">
             THE FAST AND DELICIOUS <br/> <span className="text-warning">FOOD TRUCK</span>
           </h1>
-          <p className="text-light">
+          <p className="text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br/> commodo ligula eget dolor. 
             Aenean massa. Cum sociis natoque<br/> penatibus et magnis dis parturient montes.
           </p>
@@ -56,8 +56,7 @@ const Home = () => {
       <FoodMenu />
       <VideoSection />
       <OurSchedule />
-      <CustomerReview />
-      <Offer />
+      <VideoSection2 />
       <Blog />
           </>
   );

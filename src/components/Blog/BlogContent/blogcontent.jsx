@@ -83,7 +83,7 @@ const blogcontent = () => {
                           {post.category}
                         </span>
                       </div>
-                      <h3 className="fw-bold mb-2 fs-5 text-white">
+                      <h3 className="fw-bold mb-2 fs-5 text-black">
                         {post.title}
                       </h3>
                       <div className="d-flex align-items-center text-secondary mb-3 small">

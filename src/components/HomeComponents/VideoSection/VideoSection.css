@@ -30,3 +30,52 @@
 .contentofvideo p{
     color: white;
 }
+.videoSection2Container{
+    position: relative;
+    height: 70vh;
+
+   background-color: black;
+}
+.video-sec-2Content{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.video-sec-2Content h1{
+    color: white;
+    font-size: 5vw;
+}
+.video-sec-2Content h1 span{
+    color: #FFC107;
+}
+.video-sec-2Content p{
+    color: #cccccc;
+}
+.videoSection2Container img{
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width : 768px) {
+    
+.contentofvideo h1 {
+    color: #fff;
+    min-width: 100vw;
+    font-size: 12vw;
+}
+.video-sec-2Content{
+    padding: 0 !important;
+}
+.video-sec-2Content h1{
+    font-size: 9vw !important;
+}
+
+.videoSection2Container {
+    position: relative;
+    height: 37vh;
+}
+.video-sec-2Content p{
+    font-size: 3vw;
+}
+}

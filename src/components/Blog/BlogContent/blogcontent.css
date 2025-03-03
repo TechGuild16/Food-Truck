@@ -1,13 +1,13 @@
 .blog-container {
   min-height: 100vh;
-  background-color: #000c3b;
+  background-color: #ffffff;
   padding-top: 8vw;
 }
 .blog-heading h4 {
   color: #f2cf1f;
 }
 .blog-heading h1 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .blog-heading span {
@@ -15,7 +15,7 @@
 }
 
 .blog-heading p {
-  color: #cfbebe;
+  color: #000000;
   max-width: 700px;
 }
 .blog-image-width{
