@@ -27,8 +27,8 @@ const Home = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           >
           <h6 className="text-warning">WELCOME TO DELITRUCK</h6>
-          <h1 className="text-black">
-            THE FAST AND DELICIOUS <br/> <span className="text-warning">FOOD TRUCK</span>
+          <h1 className="text-black" style={{marginTop : "1vw"}}>
+            THE FAST AND DELICIOUS <br/> <span className="text-warning " >FOOD TRUCK</span>
           </h1>
           <p className="text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br/> commodo ligula eget dolor. 
