@@ -1,10 +1,12 @@
-import React from 'react';
-import './Ourschedule.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaCalendarAlt, FaHome, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
-import eat from '../../../assets/eat.jpg'
-const OurSchedule = () => {
-  return (
+import './Menuimg.css';
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ import { FaCalendarAlt, FaHome, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
+const Menuimg= () => {
+
+
+    return(
+        <div>
+         
     <div className='ourScheduleSection d-flex align-items-center justify-content-center'>
       <div className="container">
         <div className="ourschedule text-center">
@@ -43,9 +45,12 @@ const OurSchedule = () => {
       
     </div>
   
-
     
-  );
-};
+      </div>
+    
 
-export default OurSchedule;
+      
+    )
+}
+
+export default Menuimg

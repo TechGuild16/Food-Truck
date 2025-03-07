@@ -8,7 +8,9 @@ import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 import Schedule from "./pages/Schedule/Schedule";
 import Team from "./pages/Team/Team";
-import Page from "./pages/page/page";
+import Page from "./pages/page/page"; 
+import ScheduleOrder from "./components/Schedule/ScheduleOrder";
+import Menuimg from "./components/Menu/Menuimg";
 import SinglePost from "./pages/singlePost/singlePost";
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/singlepost" element={<SinglePost />} />
+        <Route path="/scheduleorder" element={<ScheduleOrder/>} />
+
+
+        <Route path="/Menuimg" element={< Menuimg/>}/> 
+        {/* <Route path="/Ourschedule" element={<OurSchedule />} /> */}
+        
       </Routes>
       <Footer />
     </Router>
