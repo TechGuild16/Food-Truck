@@ -8,7 +8,7 @@ const VideoSection2 = () => {
             <img src={foodServe} alt="" />
             <div className="video-sec-2Content p-5">
                 <h1>
-                    GET SPECIAL OFFER<br/> <span>DISCOUNT 50%</span></h1>
+                   ENJOY LIMITED TIME DEAL <span>OF 50% ON ALL FOOD</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean<br/> commodo ligula eget dolor. Aenean massa. Cum sociis natoque<br/> penatibus et magnis dis parturient montes.</p>
                     <div className="button"> 
                         <Button title="ORDER NOW" classname='samebutton' />

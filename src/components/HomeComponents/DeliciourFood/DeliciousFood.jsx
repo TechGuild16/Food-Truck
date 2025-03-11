@@ -31,7 +31,7 @@ const DeliciousFood = () => {
           <div className="d-flex align-items-center flexchanger gap-2">
             <div className="col-md-6 decliciousfood-content">
               <h1>
-                OUR BEST<br /> <span>DELICIOUS FOOD</span>
+                TASTE OUR<br /> <span>FINEST DISHES</span>
               </h1>
             </div>
             <div className="col-md-6 decliciousfood-content-p">
@@ -58,7 +58,7 @@ const DeliciousFood = () => {
                 animate={floatAnimation}
               />
               <div className="food-content">
-                <p>DELI FOOD</p>
+                <p>BURGER</p>
                 <p>Order now &rarr;</p>
               </div>
             </motion.div>
@@ -76,7 +76,7 @@ const DeliciousFood = () => {
                 animate={floatAnimation}
               />
               <div className="food-content">
-                <p>DELI SNACK</p>
+                <p>FRIES</p>
                 <p>Order now &rarr;</p>
               </div>
             </motion.div>
@@ -94,7 +94,7 @@ const DeliciousFood = () => {
                 animate={floatAnimation}
               />
               <div className="food-content">
-                <p>BEVERAGES</p>
+                <p>DRINKS</p>
                 <p>Order now &rarr;</p>
               </div>
             </motion.div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import foodtruck from "../../assets/food-truck.png";
+import foodtruck from "../../assets/truck.png";
 import Button from "../../components/Button/Button";
 import WatchVideoButton from "../../components/VideoButton/WatchVideoButton";
 import { motion } from "framer-motion";
@@ -19,16 +19,16 @@ const Home = () => {
   return (
     <>
     <div className="home-container container-fluid">
-      <div className="home-content d-flex align-items-center">
+      <div className="home-content  d-flex align-items-center">
         <motion.div
           className="text-section"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
           >
-          <h6 className="text-warning">WELCOME TO DELITRUCK</h6>
+          <h6 className="text-warning">WELCOME TO STORETRUCK</h6>
           <h1 className="text-black" style={{marginTop : "1vw"}}>
-            THE FAST AND DELICIOUS <br/> <span className="text-warning " >FOOD TRUCK</span>
+            THE HOT AND SAVORY <br/> <span className="text-warning " >MEAL TRUCK</span>
           </h1>
           <p className="text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br/> commodo ligula eget dolor. 

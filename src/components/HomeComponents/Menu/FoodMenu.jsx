@@ -36,10 +36,10 @@ const snackItems = [
 ];
 
 const beverageItems = [
-  { name: 'BEVERAGE 1', price: '$5.00', image: beverage1 },
-  { name: 'BEVERAGE 2', price: '$7.00', image: beverage2 },
-  { name: 'BEVERAGE 3', price: '$7.00', image: beverage3 },
-  { name: 'BEVERAGE 4', price: '$7.00', image: beverage3 }
+  { name: 'DRINK 1', price: '$5.00', image: beverage1 },
+  { name: 'DRINK 2', price: '$7.00', image: beverage2 },
+  { name: 'DRINK 3', price: '$7.00', image: beverage3 },
+  { name: 'DRINK 4', price: '$7.00', image: beverage3 }
 ];
 
 const FoodMenu = () => {

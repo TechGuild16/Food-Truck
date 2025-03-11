@@ -65,7 +65,7 @@
     font-size: 12vw;
 }
 .video-sec-2Content{
-    padding: 0 !important;
+    padding:31px !important;
 }
 .video-sec-2Content h1{
     font-size: 9vw !important;
@@ -73,7 +73,7 @@
 
 .videoSection2Container {
     position: relative;
-    height: 37vh;
+    height: 55vh;
 }
 .video-sec-2Content p{
     font-size: 3vw;

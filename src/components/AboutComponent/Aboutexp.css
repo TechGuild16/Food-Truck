@@ -10,7 +10,7 @@
 }
 .uniquerdiv{
     position: absolute;
-    top: 95%;
+    top: 115%;
     
     transform: perspective(1000px) rotateY(35deg) !important;
     left: 10%;
@@ -29,6 +29,6 @@
         }
         .uniquerdiv {
             position: absolute;
-            top: 83%;
+            top: 101%;
         }
 }

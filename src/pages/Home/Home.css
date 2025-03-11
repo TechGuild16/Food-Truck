@@ -21,13 +21,14 @@
 
     background-size: 40px, 50px, 60px, cover;
     background-repeat: repeat, repeat, repeat, no-repeat;
-    background-position: 10% 10%, 50% 50%, 90% 90%, center; 
+    background-position: 10% 30%, 50% 50%, 90% 90%, center; 
 }
 
 
 .home-content {
     position: relative;
     display: flex;
+    padding-top: 2vw;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -75,7 +76,7 @@
 
 .food-truck-img {
   width: 45vw;
-
+   
     height: auto;
 }
 @media screen and (max-width:768px) {
@@ -84,6 +85,7 @@
     }
     .home-content{
         flex-direction: column;
+        padding-top: 20vw;
     }
     .home-container{
         padding-top: 50px;
@@ -123,4 +125,5 @@
         width: 100vw;
         padding-top: 6vw;
     }
+    
   }

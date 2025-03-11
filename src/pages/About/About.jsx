@@ -19,7 +19,7 @@ const About = () => {
     </div>
         <AboutExperience />
         <AboutTruck />
-        <div style={{marginTop : "20vw"}} className='donwloadappfix'>
+        <div style={{marginTop : "39vw"}} className='donwloadappfix'>
         <DownloadApp />
         </div>
         <OurTeam />

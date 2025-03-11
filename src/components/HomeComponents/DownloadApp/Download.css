@@ -88,6 +88,9 @@
 
     
     }
+    .donwloadappfix {
+        margin-top: 154vw !important;
+    }
     .downloadAppSection{
         margin-top: -40vw;
     }
@@ -128,6 +131,7 @@ text-transform: uppercase;
     .mock-tagline span{
         color: #f2cf1f;
     }
+    
     .mylogos img{
         width: 40vw;
     }

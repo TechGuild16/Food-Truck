@@ -15,13 +15,13 @@ const DownloadApp = () => {
           <img src={rectangle} alt="" />
           <img src={mobileMockup} alt="" />
           <div className="mockup-content">
-            <h1>DOWNLOAD OUR MOBILE <span>APPS</span></h1>
+            <h1>Install OUR MOBILE <span>TOOLS</span></h1>
           <p className="opacity0">
 
           dsfsssss
           </p>
           <div className="mockup-content2">
-            <p>Get 1 free food you want and get attractive prizes!
+            <p>Get 2 free meal you want and get savory prizes!
             </p>
           </div>
           <div className="buttonmokcup">
@@ -41,7 +41,7 @@ const DownloadApp = () => {
          <div className="mobilemockimage">
           <img src={mobileMockup} alt="" />
          <div className="mock-tagline">
-          <h1>Downlaod Our Mobile <span>Apps</span></h1>
+          <h1>Install Our Mobile <span>Tools</span></h1>
           <p>Get 1 free food you want and get attractive prizes!</p>
           <div className="d-flex mylogos align-items-center gap-2 justify-content-center">
               <img src={appStore} alt="" />

@@ -13,7 +13,8 @@
     color: black;
 }
 .AboutSection{
-    height: 50vh;
+    padding-top: 4vw;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center ;

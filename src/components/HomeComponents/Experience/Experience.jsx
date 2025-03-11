@@ -23,7 +23,7 @@ const Experience = () => {
             <div className="inner-photo-frame">
               <img src={foodDelivery} alt="" />
               <div className="experiencediv text-center">
-                <h1>12 +</h1>
+                <h1>22 +</h1>
                 <p>Years Experience</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Experience = () => {
         >
           <p>ABOUT US</p>
           <h1>
-            WE ARE THE BEST FOOD TRUCK SINCE 2010
+          BRINGING GREAT TASTE SINCE 2010
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

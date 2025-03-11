@@ -22,7 +22,7 @@ const VideoSection = () => {
       <video src={video1} muted loop autoPlay></video>
       <div className="contentofvideo text-center ">
         <WatchVideoButton includeText={false} />
-        <h1>WE SERVE YOU THE <span>BEST FOOD</span></h1>
+        <h1>HERE TO SATISFY <span>YOUR CRAVINGS</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient</p>
       </div>
     </motion.div>
