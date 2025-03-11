@@ -1,17 +1,21 @@
 .decliciousfood-content h1{
-    color: white;
+    color: black;
     line-height: 1.1;
     font-weight: 700;
+    font-size: 5vw;
 }
 .decliciousfood-content span{
     color: #f2cf1f;
 }
 .decliciousfood-content-p{
     font-size: 1vw;
-    color: grey;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
 }
 .delicous-food-section{
-    padding-left: 8vw;
+    padding-left: 4vw;
+    position: relative;
+    z-index: 10;
     padding-right: 8vw;
     padding-top: 7vw;
 }
@@ -19,30 +23,59 @@
     margin-top:4vw;
 }
 .fooodbox{
-    width: 25vw;
-    background-color: #000c3b;
-    height: 20vh;
+    width: 29vw;
+    background-color: #000000;
+    height: 25vh;
     border-radius: 16px;
     position: relative;
     
 }
 .fooodbox img{
-    width: 9vw;
+    width: 11vw;
     position: absolute;
     top: -20%;
    left : 8%
 }
 .food-content{
     position: absolute;
-    right: 3%;
+    right: 5%;
     
     padding-right: 3vw;
 }
 .food-content :nth-child(1){
     color: white;
-    font-size: 1.6vw;
+    font-size: 2vw;
     font-weight: 700;
 }
 .food-content :nth-child(2){
     color: #f2cf1f;
+}
+@media screen and (max-width:768px)
+{
+    .flexchanger{
+        flex-direction: column;
+        align-items: unset !important;
+        justify-content: unset !important;
+    }
+    .decliciousfood-content h1 {
+        font-size: 10vw;
+    }
+    .delicious-food-boxes{
+        flex-direction: column;
+    }
+    .fooodbox {
+        width: 86vw;
+        height: 13vh;
+    }
+    .fooodbox img{
+        width: 21vw;
+    }
+    
+.food-content :nth-child(1) {
+    color: white;
+    font-size: 7vw;
+}
+.food-content :nth-child(2){
+    margin-top: -5vw;
+}
 }

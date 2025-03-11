@@ -17,12 +17,12 @@ const OurSchedule = () => {
           </div>
           
           <div className="col-lg-4 col-md-12 carderfoodoursched text-white bg-dark rounded p-4">
-            <h2>DENPASAR FESTIVAL 2022</h2>
+            <h2>DIWALI FESTIVAL 2025</h2>
             <ul className="list-unstyled mt-3 myulist">
-              <li><FaCalendarAlt color='yellow' /> August 20, 2022</li>
-              <li><FaHome  color='yellow'/> Stand Number 20th</li>
-              <li><FaClock  color='yellow'/> Start 06:00 AM - Until Finish</li>
-              <li><FaMapMarkerAlt  color='yellow'/> Gor Ngurah Rai, Denpasar - Bali</li>
+              <li><FaCalendarAlt color='yellow' /> September 22, 2025</li>
+              <li><FaHome  color='yellow'/> Poll Number 50th</li>
+              <li><FaClock  color='yellow'/> Start 09:00 AM - Until Finish</li>
+              <li><FaMapMarkerAlt  color='yellow'/> Goa east districkt</li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center">

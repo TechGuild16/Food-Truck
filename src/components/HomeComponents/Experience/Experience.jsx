@@ -13,7 +13,7 @@ const Experience = () => {
       <div className="row experience-main-div">
         
         <motion.div 
-          className="col-md-6 d-flex align-items-center justify-content-center"
+          className="col-md-6  d-flex align-items-center justify-content-center"
           initial={{ opacity: 0, y: 100, scale: 0.8 }} 
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -23,7 +23,7 @@ const Experience = () => {
             <div className="inner-photo-frame">
               <img src={foodDelivery} alt="" />
               <div className="experiencediv text-center">
-                <h1>12 +</h1>
+                <h1>22 +</h1>
                 <p>Years Experience</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Experience = () => {
         >
           <p>ABOUT US</p>
           <h1>
-            WE ARE THE BEST FOOD<br /> TRUCK SINCE 2010
+          BRINGING GREAT TASTE SINCE 2010
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

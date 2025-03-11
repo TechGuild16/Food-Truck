@@ -6,6 +6,7 @@ import FoodMenu from '../../components/HomeComponents/Menu/FoodMenu';
 import OurSchedule from '../../components/HomeComponents/OurSchedule/OurSchedule';
 // import Offer from '../../components/HomeComponents/SpecialOffer/Offer';
 // import React, { useState } from 'react';
+import VideoSection2 from '../../components/HomeComponents/VideoSection/VideoSection2';
 
 const Menu = () => {
   return (
@@ -16,6 +17,7 @@ const Menu = () => {
 
       <FoodMenu/>
       {/* <Offer/> */}
+      <VideoSection2/>
        <OurSchedule/> 
    
     </div>
