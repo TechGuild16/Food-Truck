@@ -2,14 +2,17 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import About from "./pages/About/About";
-import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contactg/Contact";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 import Schedule from "./pages/Schedule/Schedule";
 import Team from "./pages/Team/Team";
-import Page from "./pages/page/page";
 import SinglePost from "./pages/singlePost/singlePost";
+import Page from "./pages/page/FAQ";
+import Error from "./pages/Error/Error";
+import Blog from "./pages/Blog/Blog";
+
+
 function App() {
   return (
     <Router>
@@ -23,6 +26,7 @@ function App() {
         <Route path="/Pages" element={<Page />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Error" element={<Error/>} />
         <Route path="/singlepost" element={<SinglePost />} />
       </Routes>
       <Footer />

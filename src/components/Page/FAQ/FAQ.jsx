@@ -2,32 +2,32 @@ import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
-import './FRQ.css';
+import './FAQ.css';
 
-const FRQ = () => {
+const FAQ = () => {
     const Question = [
         {
-            about: "ARE FOODS TRUCK GOOD BUSINESS?",
+            about: "IS STARTING A FOOD TRUCK PROFITABLE?",
             arrow: <FaAngleDown />,
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque dolore dolorem veritatis fugiat, dolorum quae labore sequi aliquam fugit."
+            description: "Yes, food trucks can be highly profitable with the right location, menu, and marketing strategy. Lower overhead costs compared to restaurants make them an attractive business option."
         },
         {
-            about: "HOW DO FOOD TRUCKS ATTRACT CUSTOMERS",
+            about: "WHAT PERMITS DO I NEED FOR A FOOD TRUCK?",
             arrow: <FaAngleDown />,
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque dolore dolorem veritatis fugiat, dolorum quae labore sequi aliquam fugit."
+            description: "You typically need a business license, health permit, fire permit, and parking permits. Requirements vary by location, so check with local authorities."
         },
         {
-            about: "HOW DO FOOD TRUCKS ATTRACT CUSTOMERS",
+            about: "HOW CAN I ATTRACT MORE CUSTOMERS TO MY FOOD TRUCK?",
             arrow: <FaAngleDown />,
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque dolore dolorem veritatis fugiat, dolorum quae labore sequi aliquam fugit."
+            description: "Use social media marketing, offer loyalty programs, participate in local events, and ensure your truck stands out with a unique design and great customer service."
         },
         {
-            about: "HOW DO FOOD TRUCKS ATTRACT CUSTOMERS",
+            about: "WHAT ARE THE BIGGEST CHALLENGES IN RUNNING A FOOD TRUCK?",
             arrow: <FaAngleDown />,
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque dolore dolorem veritatis fugiat, dolorum quae labore sequi aliquam fugit."
-        },
-
-    ]
+            description: "Challenges include finding good locations, handling permits, managing food costs, and dealing with weather conditions. Proper planning and adaptability are key."
+        }
+    ];
+    
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -42,7 +42,7 @@ const FRQ = () => {
                         <div className="page">
                             <h3>FAQ's</h3>
                             <h2>GENERAL <span>QUESTION</span></h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus fugiat iusto soluta fugit distinctio quas facere veniam, maiores maxime dolorem assumenda ratione in unde doloremque.</p>
+                            <p>Here you’ll find answers to the most common questions. If you need further assistance, feel free to contact our support team.</p>
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -53,8 +53,8 @@ const FRQ = () => {
                                         <h3 style={{ color: openIndex === index ? "yellow" : "white" }}>
                                             {item.about}
                                         </h3>
-                                        
-                                        <p 
+
+                                        <p
                                             className="faq-arrow"
                                             style={{ color: openIndex === index ? "yellow" : "white" }}
                                             onClick={() => toggleDescription(index)}
@@ -74,4 +74,4 @@ const FRQ = () => {
     )
 }
 
-export default FRQ
+export default FAQ;

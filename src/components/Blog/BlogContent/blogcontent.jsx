@@ -4,8 +4,8 @@ import blogImg1 from "../../../assets/blog-img-1.jpg";
 import blogImg2 from "../../../assets/blog-img-2.jpg";
 import blogImg3 from "../../../assets/blog-img-3.jpg";
 import blogImg4 from "../../../assets/blog-img-4.jpg";
-import "./blogcontent.css";
-const blogcontent = () => {
+import "./BlogContent.css";
+const BlogContent = () => {
   const blogPosts = [
     {
       id: 1,
@@ -49,7 +49,7 @@ const blogcontent = () => {
       <div className="blog-heading text-center mb-5">
         <h4 className="text-uppercase fw-bold mb-3">OUR BLOG</h4>
         <h1 className="mb-3">
-          LATEST <span className="">BLOGS & ARTICLES</span>
+          LATEST <span className="blog-header">BLOGS & ARTICLES</span>
         </h1>
         <p className="mx-auto">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -138,4 +138,4 @@ const blogcontent = () => {
   );
 };
 
-export default blogcontent;
+export default BlogContent;

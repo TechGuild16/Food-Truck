@@ -14,6 +14,12 @@
     margin-top:20px;
     font-size:3rem;
 }
+.faq-item {
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
 .page span{
     color:var(--text-color);
 }
@@ -44,6 +50,13 @@
     border: 1px solid #913131 !important; 
     margin:10px 0 25px 0;
 }
+.faq-header {
+    transition: 0.3s ease-in-out;
+}
+
+.faq-description{
+    font-size:18px;
+}
 .faq-description{
     color:var(--color);
 }
@@ -55,5 +68,11 @@
         width:100%;
         text-align: center;
         margin-bottom:3rem;
+    }
+    .faq-header h3{
+        font-size:20px;
+    }
+    .faq-description{
+        font-size:15px;
     }
 }

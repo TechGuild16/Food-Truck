@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Experience.css";
-import foodDelivery from "../../../assets/foodDelievery.jpg";
+// import foodDelivery from "../../../assets/foodDelievery.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "../../Button/Button";
 
@@ -21,7 +21,7 @@ const Experience = () => {
         >
           <div className="experience-photo-frame">
             <div className="inner-photo-frame">
-              <img src={foodDelivery} alt="" />
+              {/* <img src={foodDelivery} alt="" /> */}
               <div className="experiencediv text-center">
                 <h1>12 +</h1>
                 <p>Years Experience</p>

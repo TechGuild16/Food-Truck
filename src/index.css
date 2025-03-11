@@ -1,4 +1,7 @@
-
+body{
+    overflow-x: hidden;
+    background-color: #00166e !important;
+}
 
 ::-webkit-scrollbar{
     display: none;
@@ -7,7 +10,4 @@
     --text-color: rgb(242, 206, 32);
     --color:#ffff;
     --background-color: #5e1313 ;
-}
-body{
-    background-color: #00166e !important;
 }

@@ -5,61 +5,61 @@ import foodtruck from "../../assets/food-truck.png";
 import Button from "../../components/Button/Button";
 import WatchVideoButton from "../../components/VideoButton/WatchVideoButton";
 import { motion } from "framer-motion";
-import DownloadApp from "../../components/HomeComponents/DownloadApp/DownloadApp";
-import DeliciousFood from "../../components/HomeComponents/DeliciourFood/DeliciousFood";
-import Experience from "../../components/HomeComponents/Experience/Experience";
-import FoodMenu from "../../components/HomeComponents/Menu/FoodMenu";
-import VideoSection from "../../components/HomeComponents/VideoSection/VideoSection";
-import OurSchedule from "../../components/HomeComponents/OurSchedule/OurSchedule";
-import CustomerReview from "../../components/HomeComponents/customerReview/CustomerReview";
-import Offer from "../../components/HomeComponents/SpecialOffer/Offer";
-import Blog from "../../components/Blogs/Blog";
+import DownloadApp from "../../components/Home/DownloadApp/DownloadApp";
+import DeliciousFood from "../../components/Home/DeliciourFood/DeliciousFood";
+import Experience from "../../components/Home/Experience/Experience";
+import FoodMenu from "../../components/Home/Menu/FoodMenu";
+import VideoSection from "../../components/Home/VideoSection/VideoSection";
+import OurSchedule from "../../components/Home/OurSchedule/OurSchedule";
+import CustomerReview from "../../components/Home/customerReview/CustomerReview";
+import Offer from "../../components/Home/SpecialOffer/Offer";
+import BlogContent from "../../components/Blog/BlogContent/blogcontent";
 
 const Home = () => {
   return (
     <>
-    <div className="home-container">
-      <div className="home-content d-flex align-items-center">
-        <motion.div
-          className="text-section"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+      <div className="home-container">
+        <div className="home-content d-flex align-items-center">
+          <motion.div
+            className="text-section"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
           >
-          <h6 className="text-warning">WELCOME TO DELITRUCK</h6>
-          <h1 className="text-white">
-            THE FAST AND DELICIOUS <br/> <span className="text-warning">FOOD TRUCK</span>
-          </h1>
-          <p className="text-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br/> commodo ligula eget dolor. 
-            Aenean massa. Cum sociis natoque<br/> penatibus et magnis dis parturient montes.
-          </p>
-          <div className="buttons mt-4">
-            <Button title="order online" classname='samebutton' />
-            <WatchVideoButton />
-          </div>
-        </motion.div>
+            <h6 className="text-warning">WELCOME TO DELITRUCK</h6>
+            <h1 className="text-white">
+              THE FAST AND DELICIOUS <br /> <span className="text-warning">FOOD TRUCK</span>
+            </h1>
+            <p className="text-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br /> commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque<br /> penatibus et magnis dis parturient montes.
+            </p>
+            <div className="buttons mt-4">
+              <Button title="order online" classname='samebutton' />
+              <WatchVideoButton />
+            </div>
+          </motion.div>
 
-        <motion.div
-          className="image-section"
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 2 }}
-          transition={{ duration: 10, type: "spring", stiffness: 70 }}
+          <motion.div
+            className="image-section"
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 2 }}
+            transition={{ duration: 10, type: "spring", stiffness: 70 }}
           >
-          <img src={foodtruck} alt="Food Truck" className="food-truck-img" />
-        </motion.div>
+            <img src={foodtruck} alt="Food Truck" className="food-truck-img" />
+          </motion.div>
+        </div>
+        <DownloadApp />
+        <DeliciousFood />
       </div>
-      <DownloadApp />
-      <DeliciousFood />
-    </div>
       <Experience />
       <FoodMenu />
       <VideoSection />
       <OurSchedule />
       <CustomerReview />
       <Offer />
-      <Blog />
-          </>
+      < BlogContent />
+    </>
   );
 };
 

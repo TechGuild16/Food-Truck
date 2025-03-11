@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { FaLocationDot, FaTwitter } from "react-icons/fa6";
 import { FaPhoneAlt, FaFacebookF, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -9,12 +10,13 @@ import logo from '../../assets/logo.png'
 import InputBox from '../inputbox/InputBox';
 import Button from '../Button/Button';
 import { FaTelegramPlane } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <>
       <div className="container-fluid  food-footer">
         <div className="row">
-          <div className="col-3">
+          <div className="col-12 col-md-3">
            <img src={logo} className='truckimage' alt="" />
             <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deserunt quisquam eum!</h6>
             <div className="footer-icons">
@@ -32,7 +34,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 linkstag">
+          <div className="col-12 col-md-3 linkstag">
             <h4>QUICK LINKS</h4>
             <p href="">About us</p>
             <p href="">Menu</p>
@@ -40,7 +42,7 @@ const Footer = () => {
             <p href="">Team</p>
             <p href="">Contact</p>
           </div>
-          <div className="col-3">
+          <div className="col-12 col-md-3">
             <h4>USEFUL LINKS</h4>
             <p href="">Privacy Police</p>
             <p href="">Terms and Conditions</p>
@@ -48,7 +50,7 @@ const Footer = () => {
             <p href="">Support</p>
             <p href="">FAQ</p>
           </div>
-          <div className="col-3">
+          <div className="col-12 col-md-3">
             <h4>GET IN TOUCH</h4>
             <p href="" className='d-flex align-items-center gap-4'><FaLocationDot color='#ffc108' />  Mumbai, Maharastra</p>
             <p href="" className='d-flex align-items-center gap-4'><FaPhoneAlt   color='#ffc108'  />  +9123456789</p>
@@ -57,13 +59,13 @@ const Footer = () => {
           </div>
           <hr className='myhr' />
 
-          <div className="row  ">
-              <div className="col-6 susb">
+          <div className="row">
+              <div className="col-12 col-md-6 susb">
                  <div className="footer-bottom">
                  <h3>SUBSCRIBE OUR <br /><span>NEWSLETTER</span></h3>
                  </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="footer-bottom-button d-flex align-items-center gap-2">
                 <InputBox classname="footerinput" placeholder="Enter your email"  />
                 <Button title="Subscribe" classname="footerbutton" icon={<FaTelegramPlane />} />
@@ -82,4 +84,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
