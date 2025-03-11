@@ -1,36 +1,21 @@
 .ScheduleOrderSection {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 4vw 0;
-  }
-  
-  /* .schedule h1 {
-    text-align: center;
-    font-size: 4vw;
-    color: white;
-    text-transform: uppercase;
-  }
-  
-  .ScheduleOrder p {
-    text-align: center;
-    color: rgb(182, 182, 182);
-  }
-  
-  .ScheduleOrder span {
-    color: #ffc108;
-  } */
-  .carderfoodoursched{
+  }  
+  .carderfoodoursched1{
     height: 50vh;
     width: 25vw;
 
   }
-  .myulist{
+  .myulist1{
     font-size: 1vw;
+  
   }
-  .bg-dark {
-    background-color: #858ad0 !important;
+  .bg-dark1 {
+    background-color: #090c42 !important;
     height: 35vh;
     position: relative;
     right:-4%;
@@ -41,21 +26,34 @@
     position: relative;
   }
   
-  .carderfoodoursched h2{
+  .carderfoodoursched1 h2{
     font-size: 1.5vw;
     color: azure;
+  
   }
   ul li {
     margin: 10px 0;
     font-size: 1.2em;
   }
-  .imageSec{
+  .imageSec1{
     height: 50vh;
-    width: 45vw;
+    width: 100%;
     object-fit: cover;
    
   }
-  /* .img-fluid  imageSec rounded
-  {
-    width: 50vh;
+  /* Default styles (mobile-first) */
+  /* body {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
   } */

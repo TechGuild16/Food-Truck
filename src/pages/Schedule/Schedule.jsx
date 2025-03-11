@@ -17,12 +17,8 @@ const Schedule = () => {
     <div>
       Schedule
       <PageHeader title="OUR SCHEDULE" breadcrumb="OurSchedule"/>
-      <OurSchedule/>
-      
-         
-          
-          <ScheduleOrder/>
-          
+      <OurSchedule/> 
+          <ScheduleOrder/>     
       <VideoSection/>
     </div>
   )
