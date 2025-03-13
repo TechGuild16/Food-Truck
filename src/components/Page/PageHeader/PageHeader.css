@@ -3,7 +3,9 @@
     justify-content:center;
     align-items:center;
     height:65vh;
-   background-color: rgb(224, 224, 224);
+
+/* background-color: ssss; */
+    background-color: rgb(224, 224, 224);
 }
 .page-Text{
     display:flex;
