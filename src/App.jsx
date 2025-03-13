@@ -7,13 +7,12 @@ import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 import Schedule from "./pages/Schedule/Schedule";
 import Team from "./pages/Team/Team";
-import SinglePost from "./pages/singlePost/singlePost";
 import Page from "./pages/page/FAQ";
 import Error from "./pages/Error/Error";
 import Blog from "./pages/Blog/Blog";
 import FAQ from "./components/Page/FAQ/FAQ";
 import ScheduleOrder from "./components/Schedule/ScheduleOrder";
-
+import SinglePost from "./pages/singlePost/SinglePost";
 
 function App() {
   return (
@@ -33,6 +32,7 @@ function App() {
         <Route path="/404" element={<Error />} />
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Schedule" element={<Schedule/>} />
+        <Route path="/SinglePage" element={<SinglePost/>} />
 
 
         <Route path="/Menu" element={< Menu/>}/> 

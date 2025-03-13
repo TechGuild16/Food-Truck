@@ -9,8 +9,11 @@ body{
 :root {
     --text-color: rgb(242, 206, 32);
     --color:#000;
-    --background-color: #5e1313 ;
+    --background-color: #000000 ;
 }
 body{
     background-color: #ffff !important;
+}
+.second{
+    background-color: none !important;
 }

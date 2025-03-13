@@ -29,7 +29,7 @@ const NavigationBar1 = () => {
 
             <NavDropdown title="Blog" id="blogDropdown">
               <NavDropdown.Item as={Link} to="/Blog">Blog</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/BlogSingle">Single Page</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/SinglePage">Single Page</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
