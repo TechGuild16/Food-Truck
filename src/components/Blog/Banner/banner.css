@@ -1,6 +1,5 @@
 .project-page {
-  background-image: url("../../../assets/banner-bg.png");
-  background-color: #00166e !important;;
+  background-color: #e1e1e1 !important;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +14,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(20, 14, 14, 0.5);
   z-index: 1;
 }
 
@@ -38,9 +36,10 @@
   font-weight: 600;
 }
 .projectText p {
-  color: white;
+  color: black;
 }
 .project-icon p {
+  color: black;
   display: flex;
   align-items: center;
   gap: 5px;

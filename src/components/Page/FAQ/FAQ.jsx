@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import './FAQ.css';
+import PageHeader from '../PageHeader/PageHeader';
 
 const FAQ = () => {
     const Question = [
@@ -36,8 +37,9 @@ const FAQ = () => {
     }
     return (
         <>
+            <PageHeader title="FAQ" breadcrumb="FAQ" />
             <div className="container FAQPage">
-                <div className="row">
+                <div className="row pt-5">
                     <div className="col-12 col-md-6">
                         <div className="page black">
                             <h3>FAQ's</h3>

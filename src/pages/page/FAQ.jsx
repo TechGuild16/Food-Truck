@@ -1,9 +1,8 @@
 import React from 'react'
-// import './page.css'
-import PageHeader from '../../components/Page/PageHeader/PageHeader';
 import FAQ from '../../components/Page/FAQ/FAQ';
 import BlogContent from '../../components/Blog/BlogContent/blogcontent';
 import VideoSection from '../../components/Home/VideoSection/VideoSection';
+import PageHeader from '../../components/Page/PageHeader/PageHeader';
 
 
 const Page = () => {

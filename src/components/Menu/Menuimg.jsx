@@ -1,10 +1,12 @@
-import React from 'react';
-import './Ourschedule.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaCalendarAlt, FaHome, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
-import eat from '../../../assets/eat.jpg'
-const OurSchedule = () => {
-  return (
+import './Menuimg.css';
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ import { FaCalendarAlt, FaHome, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
+const Menuimg= () => {
+
+
+    return(
+        <div>
+         
     <div className='ourScheduleSection d-flex align-items-center justify-content-center'>
       <div className="container">
         <div className="ourschedule text-center">
@@ -17,12 +19,12 @@ const OurSchedule = () => {
           </div>
           
           <div className="col-lg-4 col-md-12 carderfoodoursched text-white bg-dark rounded p-4">
-            <h2>DIWALI FESTIVAL 2025</h2>
+            <h2>DENPASAR FESTIVAL 2022</h2>
             <ul className="list-unstyled mt-3 myulist">
-              <li><FaCalendarAlt color='yellow' /> September 22, 2025</li>
-              <li><FaHome  color='yellow'/> Poll Number 50th</li>
-              <li><FaClock  color='yellow'/> Start 09:00 AM - Until Finish</li>
-              <li><FaMapMarkerAlt  color='yellow'/> Goa east districkt</li>
+              <li><FaCalendarAlt color='yellow' /> August 20, 2022</li>
+              <li><FaHome  color='yellow'/> Stand Number 20th</li>
+              <li><FaClock  color='yellow'/> Start 06:00 AM - Until Finish</li>
+              <li><FaMapMarkerAlt  color='yellow'/> Gor Ngurah Rai, Denpasar - Bali</li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
@@ -43,9 +45,12 @@ const OurSchedule = () => {
       
     </div>
   
-
     
-  );
-};
+      </div>
+    
 
-export default OurSchedule;
+      
+    )
+}
+
+export default Menuimg

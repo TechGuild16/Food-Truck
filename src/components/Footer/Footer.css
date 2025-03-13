@@ -12,7 +12,6 @@
     color:var(--color)
 }
 .linkstag{
-    color: ;
     padding-left: 4vw !important;
     padding-bottom: 2vw;
 }
@@ -88,7 +87,7 @@
     .food-footer{
         margin-top:2rem;
         padding-left:4vw !important;
-        background-color: #000c3b;
+        background-color: #000000;
         padding-top: 3vw;
       }
       .linkstag{

@@ -12,7 +12,7 @@ const PageHeader = ({ title, breadcrumb }) => {
           </div>
         </div>
       </div>
-      <hr />
+      {/* <hr /> */}
     </>
 
   )

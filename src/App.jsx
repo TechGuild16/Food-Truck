@@ -12,6 +12,7 @@ import Page from "./pages/page/FAQ";
 import Error from "./pages/Error/Error";
 import Blog from "./pages/Blog/Blog";
 import FAQ from "./components/Page/FAQ/FAQ";
+import ScheduleOrder from "./components/Schedule/ScheduleOrder";
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
         <Route path="/singlepost" element={<SinglePost />} />
         <Route path="/404" element={<Error />} />
         <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/Schedule" element={<Schedule/>} />
+
+
+        <Route path="/Menu" element={< Menu/>}/> 
       </Routes>
       <Footer />
     </Router>

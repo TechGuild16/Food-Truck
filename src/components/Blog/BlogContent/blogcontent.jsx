@@ -102,7 +102,7 @@ const BlogContent = () => {
                         </svg>
                         {post.date}
                       </div>
-                      <p className="small mb-3" style={{color:"white"}}>
+                      <p className="small mb-3" style={{color:"black"}}>
                         {post.excerpt}
                       </p>
                       <div

@@ -110,8 +110,10 @@ const FoodMenu = () => {
             </motion.div>
           ))}
         </AnimatePresence>
+     
       </div>
     </motion.div>
+    
   );
 };
 
