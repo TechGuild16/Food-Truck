@@ -24,7 +24,7 @@ const AboutExperience = () => {
             <div className="inner-photo-frame">
               <img src={foodDelivery} alt="" />
               <div className="experiencediv text-center uniquerdivver">
-                <h1>12 +</h1>
+                <h1 style={{fontSize :" 3vw"}}>12 +</h1>
                 <p>Years Experience</p>
               </div>
             </div>

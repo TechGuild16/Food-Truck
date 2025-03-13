@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { RiArrowDropLeftLine, RiArrowDropRightLine } from "react-icons/ri";
 import AboutExperience from '../../components/AboutComponent/AboutExperience';
 import AboutTruck from '../../components/AboutComponent/AboutTruck';
-import DownloadApp from '../../components/HomeComponents/DownloadApp/DownloadApp';
+import DownloadApp from '../../components/Home/DownloadApp/DownloadApp';
 import OurTeam from '../../components/AboutComponent/OurTeam';
 const About = () => {
   return (

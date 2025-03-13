@@ -1,13 +1,15 @@
 import React from "react";
 import Banner from "../../components/Blog/Banner/banner";
-import BlogContainer from "../../components/Blog/BlogContent/blogcontent";
+
 import "./Blog.css";
+import BlogContent from "../../components/Blog/BlogContent/blogcontent";
+
 const Blog = () => {
   return (
     <>
       <div>
         <Banner title="Our Blogs" pagetitle="Our Blog" />
-        <BlogContainer />
+        <BlogContent />
       </div>
     </>
   );

@@ -2,3 +2,10 @@
    padding-left: 3vw;
    width: 30vw !important
 }
+@media (max-width: 576px){
+   .footerinput{
+      padding-left: 3vw;
+      width: 40vw !important;
+      margin-bottom:10px;
+   }
+}

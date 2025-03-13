@@ -12,11 +12,12 @@
     color:var(--color)
 }
 .linkstag{
+    color: ;
     padding-left: 4vw !important;
     padding-bottom: 2vw;
 }
 .food-footer p{
-    color:var(--color);
+    color:white;
     margin-top:1rem;
     font-size:16px;
     cursor:pointer;
@@ -78,4 +79,42 @@
 }
 .truckimage{
     width: 20vw;
+}
+@media (max-width: 576px){
+
+    .truckimage{
+        width:50vw;
+    }
+    .food-footer{
+        margin-top:2rem;
+        padding-left:4vw !important;
+        background-color: #000c3b;
+        padding-top: 3vw;
+      }
+      .linkstag{
+        padding-left: 4vw !important;
+        padding-bottom: 2vw;
+    }
+    
+   
+    .footer-icons{
+        display: flex;
+        gap:15px;
+        padding-top: 5vw;
+        padding-bottom: 4vw;
+    }
+    .linkstag{
+        padding-left: 4vw !important;
+        padding-bottom: 4vw;
+    }
+    .footer-bottom h3{
+        font-size:2rem;
+        line-height: 1.1;
+     }
+     .footer-bottom-button{
+        margin-top:20px;
+        display: flex;
+        align-items: center;   
+    }
+     
 }

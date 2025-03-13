@@ -29,3 +29,12 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 576px){
+    .footerbutton{
+        background-color: #f2cf1f;
+        border: none;
+        padding: 1.3vw 5vw 1.3vw 5vw;
+        gap: 20px;
+    } 
+}

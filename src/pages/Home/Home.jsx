@@ -5,15 +5,17 @@ import foodtruck from "../../assets/truck.png";
 import Button from "../../components/Button/Button";
 import WatchVideoButton from "../../components/VideoButton/WatchVideoButton";
 import { motion } from "framer-motion";
-import DownloadApp from "../../components/HomeComponents/DownloadApp/DownloadApp";
-import DeliciousFood from "../../components/HomeComponents/DeliciourFood/DeliciousFood";
-import Experience from "../../components/HomeComponents/Experience/Experience";
-import FoodMenu from "../../components/HomeComponents/Menu/FoodMenu";
-import VideoSection from "../../components/HomeComponents/VideoSection/VideoSection";
-import OurSchedule from "../../components/HomeComponents/OurSchedule/OurSchedule";
-import CustomerReview from "../../components/HomeComponents/customerReview/CustomerReview";
-import Blog from "../../components/Blogs/Blog";
-import VideoSection2 from "../../components/HomeComponents/VideoSection/VideoSection2";
+import DownloadApp from "../../components/Home/DownloadApp/DownloadApp";
+import DeliciousFood from "../../components/Home/DeliciourFood/DeliciousFood";
+import Experience from "../../components/Home/Experience/Experience";
+import FoodMenu from "../../components/Home/Menu/FoodMenu";
+import VideoSection from "../../components/Home/VideoSection/VideoSection";
+import OurSchedule from "../../components/Home/OurSchedule/OurSchedule";
+import CustomerReview from "../../components/Home/customerReview/CustomerReview";
+import Offer from "../../components/Home/SpecialOffer/Offer";
+import BlogContent from "../../components/Blog/BlogContent/blogcontent";
+import VideoSection2 from "../../components/Home/VideoSection/VideoSection2";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
@@ -40,24 +42,24 @@ const Home = () => {
           </div>
         </motion.div>
 
-        <motion.div
-          className="image-section"
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 2 }}
-          transition={{ duration: 10, type: "spring", stiffness: 70 }}
+          <motion.div
+            className="image-section"
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 2 }}
+            transition={{ duration: 10, type: "spring", stiffness: 70 }}
           >
-          <img src={foodtruck} alt="Food Truck" className="food-truck-img" />
-        </motion.div>
+            <img src={foodtruck} alt="Food Truck" className="food-truck-img" />
+          </motion.div>
+        </div>
+        <DownloadApp />
+        <DeliciousFood />
       </div>
-      <DownloadApp />
-      <DeliciousFood />
-    </div>
       <Experience />
       <FoodMenu />
       <VideoSection />
       <OurSchedule />
       <VideoSection2 />
-      <Blog />
+      <BlogContent />
           </>
   );
 };

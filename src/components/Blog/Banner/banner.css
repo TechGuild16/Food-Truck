@@ -1,12 +1,11 @@
 .project-page {
   background-image: url("../../../assets/banner-bg.png");
-  background-color: maroon;
+  background-color: #00166e !important;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 65vh;
   position: relative;
-  border-bottom: 3px solid rgb(61, 3, 3);
 }
 
 .project-page::before {
